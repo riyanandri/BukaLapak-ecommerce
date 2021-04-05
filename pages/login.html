@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>BukaLapak - Login Page</title>
+
+<link href="../images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+<!-- Font awesome -->
+<link rel="stylesheet" href="../fonts/fontawesome/css/all.min.css">
+
+<!-- custom stylesheet -->
+<link href="../css/login.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <!--Container-->
+    <div class="container" id="container">
+
+        <!--Form Daftar-->
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Buat Akun</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google"></i></a>
+                    <a href="#" class="social"><i class="fab fa-twitter"></i></a>
+                </div>
+                <span>atau gunakan email untuk mendaftar</span>
+                <input type="text" name="nama" placeholder="Nama" required="">
+                <input type="email" name="email" placeholder="Email" required="">
+                <input type="password" name="pwd" placeholder="Password" required="">
+                <button>Daftar</button>
+            </form>
+        </div>
+
+        <!--Form Masuk-->
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Masuk</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google"></i></a>
+                    <a href="#" class="social"><i class="fab fa-twitter"></i></a>
+                </div>
+                <span>atau gunakan akun</span>
+                <input type="email" name="email" placeholder="Email" required="">
+                <input type="password" name="pwd" placeholder="Password" required="">
+                <a href="#">lupa password?</a>
+                <button>Masuk</button>
+            </form>
+        </div>
+
+        <!--Overlay-->
+        <div class="overlay-container">
+            <div class="overlay">
+                <!--Overlay Kiri-->
+                <div class="overlay-panel overlay-left">
+                    <h1>Selamat Datang</h1>
+                    <p>Untuk tetap terhubung dengan kami, silakan masuk dengan info pribadi anda</p>
+                    <button class="ghost" id="signIn">Masuk</button>
+                </div>
+
+                <!--Overlay Kanan-->
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello, Gengs!</h1>
+                    <p>Masukkan info pribadi anda, dan gabung bersama kami</p>
+                    <button class="ghost" id="signUp">Daftar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- custom javascript -->
+    <script src="../js/login.js" type="text/javascript"></script>
+    
+</body>
+</html>
